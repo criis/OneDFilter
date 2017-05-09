@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		257E289A1EC255A7000D1EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E28991EC255A7000D1EC2 /* AppDelegate.swift */; };
+		257E289C1EC255A7000D1EC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E289B1EC255A7000D1EC2 /* ViewController.swift */; };
+		257E289E1EC255A7000D1EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257E289D1EC255A7000D1EC2 /* Assets.xcassets */; };
+		257E28A11EC255A7000D1EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257E289F1EC255A7000D1EC2 /* Main.storyboard */; };
+		257E28AC1EC255A7000D1EC2 /* OneDFilterCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E28AB1EC255A7000D1EC2 /* OneDFilterCocoaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		257E28A81EC255A7000D1EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 257E288E1EC255A7000D1EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257E28951EC255A7000D1EC2;
+			remoteInfo = OneDFilterCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		257E28961EC255A7000D1EC2 /* OneDFilterCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDFilterCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257E28991EC255A7000D1EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		257E289B1EC255A7000D1EC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		257E289D1EC255A7000D1EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		257E28A01EC255A7000D1EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		257E28A21EC255A7000D1EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257E28A71EC255A7000D1EC2 /* OneDFilterCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneDFilterCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		257E28AB1EC255A7000D1EC2 /* OneDFilterCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDFilterCocoaTests.swift; sourceTree = "<group>"; };
+		257E28AD1EC255A7000D1EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257E28931EC255A7000D1EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257E28A41EC255A7000D1EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257E288D1EC255A7000D1EC2 = {
+			isa = PBXGroup;
+			children = (
+				257E28981EC255A7000D1EC2 /* OneDFilterCocoa */,
+				257E28AA1EC255A7000D1EC2 /* OneDFilterCocoaTests */,
+				257E28971EC255A7000D1EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		257E28971EC255A7000D1EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257E28961EC255A7000D1EC2 /* OneDFilterCocoa.app */,
+				257E28A71EC255A7000D1EC2 /* OneDFilterCocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257E28981EC255A7000D1EC2 /* OneDFilterCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				257E28991EC255A7000D1EC2 /* AppDelegate.swift */,
+				257E289B1EC255A7000D1EC2 /* ViewController.swift */,
+				257E289D1EC255A7000D1EC2 /* Assets.xcassets */,
+				257E289F1EC255A7000D1EC2 /* Main.storyboard */,
+				257E28A21EC255A7000D1EC2 /* Info.plist */,
+			);
+			path = OneDFilterCocoa;
+			sourceTree = "<group>";
+		};
+		257E28AA1EC255A7000D1EC2 /* OneDFilterCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				257E28AB1EC255A7000D1EC2 /* OneDFilterCocoaTests.swift */,
+				257E28AD1EC255A7000D1EC2 /* Info.plist */,
+			);
+			path = OneDFilterCocoaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		257E28951EC255A7000D1EC2 /* OneDFilterCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257E28B01EC255A7000D1EC2 /* Build configuration list for PBXNativeTarget "OneDFilterCocoa" */;
+			buildPhases = (
+				257E28921EC255A7000D1EC2 /* Sources */,
+				257E28931EC255A7000D1EC2 /* Frameworks */,
+				257E28941EC255A7000D1EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneDFilterCocoa;
+			productName = OneDFilterCocoa;
+			productReference = 257E28961EC255A7000D1EC2 /* OneDFilterCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		257E28A61EC255A7000D1EC2 /* OneDFilterCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257E28B31EC255A7000D1EC2 /* Build configuration list for PBXNativeTarget "OneDFilterCocoaTests" */;
+			buildPhases = (
+				257E28A31EC255A7000D1EC2 /* Sources */,
+				257E28A41EC255A7000D1EC2 /* Frameworks */,
+				257E28A51EC255A7000D1EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257E28A91EC255A7000D1EC2 /* PBXTargetDependency */,
+			);
+			name = OneDFilterCocoaTests;
+			productName = OneDFilterCocoaTests;
+			productReference = 257E28A71EC255A7000D1EC2 /* OneDFilterCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		257E288E1EC255A7000D1EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Christian Riis";
+				TargetAttributes = {
+					257E28951EC255A7000D1EC2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					257E28A61EC255A7000D1EC2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 257E28951EC255A7000D1EC2;
+					};
+				};
+			};
+			buildConfigurationList = 257E28911EC255A7000D1EC2 /* Build configuration list for PBXProject "OneDFilterCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 257E288D1EC255A7000D1EC2;
+			productRefGroup = 257E28971EC255A7000D1EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257E28951EC255A7000D1EC2 /* OneDFilterCocoa */,
+				257E28A61EC255A7000D1EC2 /* OneDFilterCocoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257E28941EC255A7000D1EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257E289E1EC255A7000D1EC2 /* Assets.xcassets in Resources */,
+				257E28A11EC255A7000D1EC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257E28A51EC255A7000D1EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257E28921EC255A7000D1EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257E289C1EC255A7000D1EC2 /* ViewController.swift in Sources */,
+				257E289A1EC255A7000D1EC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257E28A31EC255A7000D1EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257E28AC1EC255A7000D1EC2 /* OneDFilterCocoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		257E28A91EC255A7000D1EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257E28951EC255A7000D1EC2 /* OneDFilterCocoa */;
+			targetProxy = 257E28A81EC255A7000D1EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		257E289F1EC255A7000D1EC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257E28A01EC255A7000D1EC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		257E28AE1EC255A7000D1EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		257E28AF1EC255A7000D1EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		257E28B11EC255A7000D1EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OneDFilterCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OneDFilterCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		257E28B21EC255A7000D1EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OneDFilterCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OneDFilterCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		257E28B41EC255A7000D1EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OneDFilterCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OneDFilterCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneDFilterCocoa.app/Contents/MacOS/OneDFilterCocoa";
+			};
+			name = Debug;
+		};
+		257E28B51EC255A7000D1EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OneDFilterCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.OneDFilterCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneDFilterCocoa.app/Contents/MacOS/OneDFilterCocoa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		257E28911EC255A7000D1EC2 /* Build configuration list for PBXProject "OneDFilterCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257E28AE1EC255A7000D1EC2 /* Debug */,
+				257E28AF1EC255A7000D1EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257E28B01EC255A7000D1EC2 /* Build configuration list for PBXNativeTarget "OneDFilterCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257E28B11EC255A7000D1EC2 /* Debug */,
+				257E28B21EC255A7000D1EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		257E28B31EC255A7000D1EC2 /* Build configuration list for PBXNativeTarget "OneDFilterCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257E28B41EC255A7000D1EC2 /* Debug */,
+				257E28B51EC255A7000D1EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 257E288E1EC255A7000D1EC2 /* Project object */;
+}
