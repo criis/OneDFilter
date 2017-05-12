@@ -12,6 +12,8 @@
 		257E289E1EC255A7000D1EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257E289D1EC255A7000D1EC2 /* Assets.xcassets */; };
 		257E28A11EC255A7000D1EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257E289F1EC255A7000D1EC2 /* Main.storyboard */; };
 		257E28AC1EC255A7000D1EC2 /* OneDFilterCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E28AB1EC255A7000D1EC2 /* OneDFilterCocoaTests.swift */; };
+		257E28B81EC259E1000D1EC2 /* NaiveOneDFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E28B71EC259E1000D1EC2 /* NaiveOneDFilter.swift */; };
+		257E28BA1EC267DA000D1EC2 /* MetalOneDFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E28B91EC267DA000D1EC2 /* MetalOneDFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		257E28A71EC255A7000D1EC2 /* OneDFilterCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneDFilterCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257E28AB1EC255A7000D1EC2 /* OneDFilterCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDFilterCocoaTests.swift; sourceTree = "<group>"; };
 		257E28AD1EC255A7000D1EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257E28B71EC259E1000D1EC2 /* NaiveOneDFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaiveOneDFilter.swift; sourceTree = "<group>"; };
+		257E28B91EC267DA000D1EC2 /* MetalOneDFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalOneDFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				257E28991EC255A7000D1EC2 /* AppDelegate.swift */,
 				257E289B1EC255A7000D1EC2 /* ViewController.swift */,
+				257E28B71EC259E1000D1EC2 /* NaiveOneDFilter.swift */,
+				257E28B91EC267DA000D1EC2 /* MetalOneDFilter.swift */,
 				257E289D1EC255A7000D1EC2 /* Assets.xcassets */,
 				257E289F1EC255A7000D1EC2 /* Main.storyboard */,
 				257E28A21EC255A7000D1EC2 /* Info.plist */,
@@ -197,6 +203,8 @@
 			files = (
 				257E289C1EC255A7000D1EC2 /* ViewController.swift in Sources */,
 				257E289A1EC255A7000D1EC2 /* AppDelegate.swift in Sources */,
+				257E28B81EC259E1000D1EC2 /* NaiveOneDFilter.swift in Sources */,
+				257E28BA1EC267DA000D1EC2 /* MetalOneDFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
