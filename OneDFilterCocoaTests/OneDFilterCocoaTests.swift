@@ -10,7 +10,7 @@ import XCTest
 @testable import OneDFilterCocoa
 
 let bigL: [Double] = (1 ... 100000).map { _ in drand48() * 23 }
-let bigR: Int = 8
+let bigR: Int = 25
 let bigW: [Double] = (0 ..< 2 * bigR + 1).map { _ in drand48() * 50 }
 
 
@@ -66,16 +66,14 @@ class OneDFilterCocoaTests: XCTestCase {
     }
     
     func testPerformanceNaive() {
-
         self.measure {
-            
-            naiveOneDFilter(R: bigR, L: bigL, W: bigW)
+            _ = naiveOneDFilter(R: bigR, L: bigL, W: bigW)
         }
     }
     
     func testPerformanceAccelerate() {
         self.measure {
-            noMetalOneDFilter(R: bigR, L: bigL, W: bigW)
+            _ = noMetalOneDFilter(R: bigR, L: bigL, W: bigW)
         }
     }
 }
